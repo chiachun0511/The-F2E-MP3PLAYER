@@ -1,0 +1,87 @@
+body{
+    font-family: "微軟正黑體";
+    height: 100%; 
+    margin: 0;
+    padding: 0;
+}
+.title{
+    font-weight: bolder;
+    display: inline-block;
+    font-size: 24px;
+    padding: 20px;
+}
+.button{
+    color: #cb897a;
+    /* display: inline-block; */
+    float: right;
+    padding-right: 10%;
+    padding: 20px;
+}
+.add{
+    display: inline-block;
+}
+.edit{
+    display: inline-block;
+}
+
+.section{
+    display: inline-block;
+    vertical-align: top;
+    height: 100vh;
+}
+.list{
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    font-size: 14px;
+}
+.song{
+    width: 40%;
+    background: #ebebeb;
+}
+.row_name{
+    font-size: 12px;
+    padding: 10px;
+    color: gray;
+}
+.border{
+    width: 80%;
+    padding-left: 15%;
+    border-bottom: 1px solid #9d9d9d;
+    margin: 0 auto;
+}
+.song_name{
+    display: inline-block;
+    padding-left: 30px;
+}
+.song_player{
+    display: inline-block;
+    padding-left: 120px;
+}
+.length{
+    display: inline-block;
+    padding-left: 170px;
+}
+.row{
+    padding: 10px;
+    font-size: 13px;
+}
+.Song_name{
+    display: inline-block;
+    width: 32%;
+    padding-left: 8%; 
+
+}
+.Song_player{
+    display: inline-block;
+    width: 40%;
+}
+.Length{
+    display: inline-block;
+}
+
+
+.player{   
+    width: 35%;
+    background: #b09a61;
+}
