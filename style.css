@@ -79,9 +79,87 @@ body{
 .Length{
     display: inline-block;
 }
-
-
 .player{   
-    width: 35%;
+    width: 36%;
     background: #b09a61;
+}
+
+.bg_album{
+  background-image: url("album.jpg");
+  filter: blur(8px);
+  -webkit-filter: blur(20px);
+  height: 90%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.album{
+    display: inline-block;
+    position: absolute;
+    width: 400px;
+    height: 400px;	
+    left: 67%;
+    margin-top: -45%;
+}
+.timeline{
+    position: absolute;
+    width: 30%;
+    height: 10px;
+    background-color:#fffdd0;
+    top: 62%;
+    margin-left: 40px;
+}
+.timeline_now{
+    position: absolute;
+    width: 10%;
+    height: 10px;
+    background-color: #afa08a;
+    top: 62%;
+    margin-left: 40px;
+}
+.time_now{
+    position: absolute;
+    top: 64%;
+    margin-left: 40px;
+}
+.time_all{
+    position: absolute;
+    top: 64%;
+    margin-left: 31%;
+}
+.information{
+    position: absolute;
+    top: 68%;
+    margin-left: 12%;
+    font-size: 30px;
+    color: white;
+}
+.play_button{
+    position: absolute;
+    display: inline-block;
+    top: 75%;
+    margin-left: 6.5%;
+    color: white;
+    font-size: 50px;
+}
+
+.button1{
+    display: inline-block;
+    margin-left: 50px;
+}
+.button2{
+    display: inline-block;
+    margin-left: 50px;
+}
+.button3{
+    display: inline-block;
+    margin-left: 50px;
+}
+.setting_button{
+    position: absolute;
+    display: inline-block;
+    top: 75%;
+    margin-left: 6.5%;
+    color: white;
+    font-size: 50px;
 }
